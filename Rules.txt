@@ -1,0 +1,30 @@
+Cows & Bulls Game
+--------------------
+
+An interesting number guessing game!
+
+You will be asked to guess a 4 digit number. Every guess, you will be given the results of your guess.
+But, how to interpret the results!!!
+
+Cows --> Represents number of correct guess of digits
+Bulls --> Represents number of correct guess of digits at correct places
+
+Example:
+--------
+Guessing Number : 2536	<Unknow to the player>
+-------------------------------------------------
+|	Guess	|	Cows	|	Bulls	|
+-------------------------------------------------
+|	1234	|	2	|	1	| We have 2,3 as correct digits & 3 is at the right place
+|	1256	|	3	|	1	| We have 2,5,6 as correct digits & 6 is at the right place
+|	1258	|	2	|	0	| We have 2,5 as correct digits & none at right place.
+|	1296	|	2	|	1	|
+....
+|	2536	|	4	|	4	|
+-------------------------------------------------
+
+Aim of the game is to make mininum guesses to find the 4 digit number.
+4 digit numbers are the easiest to guess. Difficulty increases as the number of digits increases.
+Also, repetative digits are tough to guess!!
+
+Happy playing!!
